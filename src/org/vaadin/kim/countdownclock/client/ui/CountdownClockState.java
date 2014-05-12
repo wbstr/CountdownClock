@@ -18,7 +18,7 @@ public class CountdownClockState extends AbstractComponentState {
 	/**
 	 * Number of milliseconds to count
 	 */
-	private long countdownTarget;
+	private Long countdownTarget;
 
 	public String getTimeFormat() {
 		return timeFormat;
@@ -28,11 +28,11 @@ public class CountdownClockState extends AbstractComponentState {
 		this.timeFormat = timeFormat;
 	}
 
-	public long getCountdownTarget() {
+	public Long getCountdownTarget() {
 		return countdownTarget;
 	}
 
-	public void setCountdownTarget(long countdownTarget) {
+	public void setCountdownTarget(Long countdownTarget) {
 		this.countdownTarget = countdownTarget;
 	}
 
